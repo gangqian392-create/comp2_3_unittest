@@ -6,7 +6,7 @@
 ただし、中身が実装されていません。
 実装して、ユニットテストが通るようにしてください。
 
-[![MS Build and Test](https://github.com/tpu-game-2025/comp2_3_unittest/actions/workflows/ms_test.yml/badge.svg)](https://github.com/tpu-game-2025/comp2_3_unittest/actions/workflows/ms_test.yml)
+[![MS Build and Test](https://github.com/gangqian392-作成/comp2_3_unittest/actions/workflows/ms_test.yml/badge.svg)](https://github.com/gangqian392-作成/comp2_3_unittest/actions/workflows/ms_test.yml)
 
 
 # 進め方
@@ -20,3 +20,4 @@
 * 更新内容をコミットしてください
 * コミットした結果をGitHubにプッシュしてください
 * 本リポジトリにプルリクエストをしてください
+
