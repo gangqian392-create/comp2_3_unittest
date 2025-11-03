@@ -21,5 +21,14 @@ int sum(int num, int* array)
 // num個の整数の平均を得る
 int average(int num, int* array)
 {
-	return 0x7fffffff;// ■未実装
+    if (num <= 0 || array == 0)  // 要素数が0以下または配列が無効なら
+        return 0;                      // 安全に0を返す
+
+    int total = 0;
+    for (int i = 0; i < num; ++i)
+    {
+        total += array[i];             // 各要素を加算
+    }
+
+    return total / num;                // 平均を整数で返す（小数点以下切り捨て）
 }
